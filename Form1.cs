@@ -19,5 +19,14 @@ namespace _1351010014_KimChi
             Button btnMul = new Button();
             btnMul.Text = "Multily";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                int a = int.Parse(textBox1.Text);
+                int b = int.Parse(textBox2.Text);
+            }
+        }
     }
 }
