@@ -16,6 +16,8 @@ namespace _1351010014_KimChi
             InitializeComponent();
             Button btnAdd = new Button();
             btnAdd.Text = "Add";
+            Button btnMul = new Button();
+            btnMul.Text = "Multily";
         }
     }
 }
