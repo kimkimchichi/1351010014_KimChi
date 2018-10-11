@@ -14,6 +14,8 @@ namespace _1351010014_KimChi
         public Form1()
         {
             InitializeComponent();
+            Button btnAdd = new Button();
+            btnAdd.Text = "Add";
         }
     }
 }
